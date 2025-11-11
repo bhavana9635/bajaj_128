@@ -1,0 +1,14 @@
+C:\Users\bhava\Downloads\bajaj>java -jar target\bajaj-qualifier-java-0.0.1-SNAPSHOT.jar
+2025-11-11T16:28:41.995+05:30  INFO 3212 --- [           main] c.b.qualifier.BajajQualifierApplication  : Starting BajajQualifierApplication using Java 22.0.2 with PID 3212 (C:\Users\bhava\Downloads\bajaj\target\bajaj-qualifier-java-0.0.1-SNAPSHOT.jar started by bhava in C:\Users\bhava\Downloads\bajaj)
+2025-11-11T16:28:42.082+05:30  INFO 3212 --- [           main] c.b.qualifier.BajajQualifierApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-11-11T16:28:43.117+05:30  INFO 3212 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-11T16:28:43.144+05:30  INFO 3212 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-11T16:28:43.145+05:30  INFO 3212 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-11-11T16:28:43.179+05:30  INFO 3212 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-11T16:28:43.180+05:30  INFO 3212 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1046 ms
+2025-11-11T16:28:43.579+05:30  INFO 3212 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-11-11T16:28:43.604+05:30  INFO 3212 --- [           main] c.b.qualifier.BajajQualifierApplication  : Started BajajQualifierApplication in 2.106 seconds (process running for 2.565)
+2025-11-11T16:28:43.608+05:30  INFO 3212 --- [           main] c.bajaj.qualifier.startup.StartupRunner  : Starting qualifier flow on application startup...
+2025-11-11T16:28:44.057+05:30  INFO 3212 --- [           main] c.b.qualifier.service.QualifierService   : Generated webhook. Status: 200 OK
+2025-11-11T16:28:44.060+05:30  INFO 3212 --- [           main] c.b.qualifier.service.QualifierService   : Loaded SQL from resource 'sql/question1.sql' (89 chars).
+2025-11-11T16:28:44.148+05:30  INFO 3212 --- [           main] c.b.qualifier.service.QualifierService   : Submission completed. Status: 200 OK, Body: {"success":true,"message":"Webhook processed successfully"}
